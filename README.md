@@ -63,4 +63,7 @@ git push origin main
 ### Resolução de Problemas
 Se você encontrar erros durante git pull ou git push, as mensagens de erro geralmente fornecem informações úteis. Verifique o log de erros e consulte a documentação oficial do Git ou busque ajuda online se necessário.
 
+## Documentação original do Git
+https://git-scm.com/doc
 
+Na *documentação*, existem todos os detalhes sobre o uso, porém, a quem inicia, pode causar um efeito de excesso de informação.
