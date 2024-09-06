@@ -6,7 +6,7 @@ Este guia fornece uma visão geral das etapas essenciais para configurar e utili
 
 Antes de começar, é necessário configurar o Git com seu nome de usuário e e-mail. Estes serão utilizados em seus commits.
 
-### Configurando o Nome de Usuário e o E-mail
+## Configurando o Nome de Usuário e o E-mail
 
 ```sh
 git config --global user.name "Seu Nome de Usuário"
@@ -14,7 +14,7 @@ git config --global user.email "seu-email@example.com"
 ````
 > Nota: Utilize --global para aplicar essas configurações a todos os repositórios no seu computador. Se não utilizar --global, a configuração será específica para o repositório atual.
 
-### Clonando um Repositório
+## Clonando um Repositório
 Para clonar um repositório do GitHub para sua máquina local, use o comando git clone:
 
 ```sh
@@ -30,10 +30,10 @@ git pull
 ```
 *Este comando irá buscar e integrar as mudanças do repositório remoto no seu repositório local.*
 
-### Adicionando e Confirmando Arquivos
+## Adicionando e Confirmando Arquivos
 Após fazer alterações nos arquivos, você precisa adicioná-los à área de preparação e confirmar essas alterações.
 
-### Adicionando Arquivos
+## Adicionando Arquivos
 Para adicionar todos os arquivos modificados, use:
 
 ```sh
@@ -53,14 +53,14 @@ Confirmando as Alterações
 
 git commit -m "Descrição clara do que foi alterado"
 ```
-### Enviando Mudanças para o Repositório Remoto
+## Enviando Mudanças para o Repositório Remoto
 Depois de confirmar suas alterações, envie-as para o repositório remoto com o comando git push:
 ```sh
 git push origin main
 ```
-> Substitua main pelo nome da branch que você está atualizando, se for diferente.
+Substitua main pelo nome da branch que você está atualizando, se for diferente.
 
-### Resolução de Problemas
+## Resolução de Problemas
 Se você encontrar erros durante git pull ou git push, as mensagens de erro geralmente fornecem informações úteis. Verifique o log de erros e consulte a documentação oficial do Git ou busque ajuda online se necessário.
 
 ## Documentação original do Git
