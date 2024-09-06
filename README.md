@@ -12,7 +12,7 @@ Antes de começar, é necessário configurar o Git com seu nome de usuário e e-
 git config --global user.name "Seu Nome de Usuário"
 git config --global user.email "seu-email@example.com"
 ````
-> Nota: Utilize --global para aplicar essas configurações a todos os repositórios no seu computador. Se não utilizar --global, a configuração será específica para o repositório atual.
+ Nota: Utilize --global para aplicar essas configurações a todos os repositórios no seu computador. Se não utilizar --global, a configuração será específica para o repositório atual.
 
 ## Clonando um Repositório
 Para clonar um repositório do GitHub para sua máquina local, use o comando git clone:
@@ -40,14 +40,14 @@ Para adicionar todos os arquivos modificados, use:
 git add --all
 ```
 
-> Ou, se quiser adicionar arquivos específicos, substitua nome_do_arquivo pelo caminho do arquivo:
+ Ou, se quiser adicionar arquivos específicos, substitua nome_do_arquivo pelo caminho do arquivo:
 
 ```sh
 git add nome_do_arquivo
 Confirmando as Alterações
 
 ```
-> Para confirmar as mudanças adicionadas, use o comando git commit com uma mensagem descritiva:
+ Para confirmar as mudanças adicionadas, use o comando git commit com uma mensagem descritiva:
 
 ```sh
 
