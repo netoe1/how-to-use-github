@@ -41,6 +41,7 @@ git add --all
 ```
 
  Ou, se quiser adicionar arquivos específicos, substitua nome_do_arquivo pelo caminho do arquivo:
+ Quando você usar --all, o Git é inteligente e consegue saber quais arquivos foram modificados...
 
 ```sh
 git add nome_do_arquivo
