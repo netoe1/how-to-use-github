@@ -60,7 +60,7 @@ git push origin main
 ```
 > Substitua main pelo nome da branch que você está atualizando, se for diferente.
 
-###Resolução de Problemas
+### Resolução de Problemas
 Se você encontrar erros durante git pull ou git push, as mensagens de erro geralmente fornecem informações úteis. Verifique o log de erros e consulte a documentação oficial do Git ou busque ajuda online se necessário.
 
 
