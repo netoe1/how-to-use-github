@@ -3,7 +3,6 @@
 Este guia fornece uma visão geral das etapas essenciais para configurar e utilizar o Git e o GitHub. Siga estas instruções para clonar repositórios, fazer alterações e sincronizar suas mudanças. Normalmente, para facilitar o uso, o GitHub possui uma versão com interface gráfica, o que auxilia iniciantes a utilizarem da ferramenta.
 A intenção deste curso é desenvolver a aptidão do aluno a utilizar o terminal; quando desenvolvida essa aptidão, o estudante pode ter a liberdade de escolher entre uso via CLI ou UI.
 
-
 ## Configuração da Conta
 
 Antes de começar, é necessário configurar o Git com seu nome de usuário e e-mail. Estes serão utilizados em seus commits.
@@ -86,13 +85,8 @@ Substitua main pelo nome da branch que você está atualizando, se for diferente
 
 Se você encontrar erros durante git pull ou git push, as mensagens de erro geralmente fornecem informações úteis. Verifique o log de erros e consulte a documentação oficial do Git ou busque ajuda online se necessário.
 
-## Documentação original do Git
 
-https://git-scm.com/doc
-
-Na _documentação_, existem todos os detalhes sobre o uso, porém, a quem inicia, pode causar um efeito de excesso de informação.
-
-## Comandos principais para git
+# Comandos principais para git
 
 ## Adicionar arquivos para versionamento
 
@@ -174,7 +168,17 @@ Caso você não tenha feito isso, existe a ferramenta rebase, que permite, de fo
 
 ## Abrir processo de recuperação interativo
 ```sh
-git rebase
+git rebase -i
 ```
+# Sincronização de conta com IDE's
 
+Caso você utilize alguma IDE para programar, como VSCode, Visual Studio Communnity, ou qualquer outra compatível com a tecnologia do Git, você pode sincronizar sua conta, guardando ssuas preferências de usuário; também, sincronizar a conta permite ao usuário não precisar realizar sempre as questões de segurança relacionadas aos uso de tokens.
+
+*Dica de segurança digital:* Sincronize contas apenas em computadores pessoais, os quais, só você utiliza.
+
+## Documentação original do Git
+
+https://git-scm.com/doc
+
+Na _documentação_, existem todos os detalhes sobre o uso, porém, a quem inicia, pode causar um efeito de excesso de informação.
 
