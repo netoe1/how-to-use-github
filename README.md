@@ -20,10 +20,31 @@ Nota: Utilize --global para aplicar essas configurações a todos os repositóri
 # Segurança do git
 O Git/GitHub utiliza SSH, protocolo que protege o uso do terminal via acesso remoto, além de outras políticas que protegem a conta do usuário. Hoje, o GitHub utiliza Tokens como "chaves mestras". Você pode criá-los para serem absolutos, sem data de validade; ou com data de validade.
 
-Os tokens são requeridos para alterações mais sensíveis em relação aos dados do usuário, quando você quer alterar pelo terminal.
+Os tokens são requeridos para alterações mais sensíveis em relação aos dados do usuário, quando você quer alterar pelo terminal. Todo o token também possui camadas de permissão; você pode criar um token de permissão para um desenvolvedor do seu projeto, onde ele é apenas capaz de fazer commit, sem atualizar o repositório.
 
+# Configuração de um repositório, sem cloná-lo
+```sh
+echo "# 23322" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:netoe1/23322.git
+git push -u origin main
 
-## Clonando um Repositório
+````
+
+Não recomendo esse método aos iniciantes. Prefiro que você utilize o método de clonagem.
+
+# Estrutura de repositório básico, recomendado pelo próprio git:
+Um repositório deve ter um arquivo README.md, escrito na linguagem de hypertexto Markdown, como este arquivo que você está lendo; o arquivo serve para informar aos usuários, o que você está tentando fazer, explicando passo a passo do projeto.
+Outra coisa que normalmente você vai criar, é uma pasta chamada *src*, com o seu código fonte.
+Lembrando que, depedendo da linguagem e com o que você vai trabalhar, a estrutura de pastas deve mudar.
+
+## Estrutura de repositório: .gitignore
+O .gitignore é um arquivo que permite ao programador, informar ao git arquivos que devem ser ignorados, que não vão passar por versionamento.
+
+# Clonando um Repositório
 
 Para clonar um repositório do GitHub para sua máquina local, use o comando git clone:
 
@@ -32,6 +53,7 @@ git clone https://github.com/usuario/repositorio.git
 ```
 
 Substitua https://github.com/usuario/repositorio.git pelo URL do repositório que deseja clonar.
+Quando se clona um repositório e ele seja de sua própria autoria, você consegue modificar seu conteúdo e atualizá-lo ao repositório remoto. Se é de outra pessoa, você pode ter uma cópia para você, através do Fork.
 
 ### Sincronizando com o Repositório Remoto
 
@@ -43,7 +65,7 @@ git pull
 
 _Este comando irá buscar e integrar as mudanças do repositório remoto no seu repositório local._
 
-## Adicionando e Confirmando Arquivos
+# Adicionando e Confirmando Arquivos
 
 Após fazer alterações nos arquivos, você precisa adicioná-los à área de preparação e confirmar essas alterações.
 
@@ -91,10 +113,14 @@ Se você encontrar erros durante git pull ou git push, as mensagens de erro gera
 ## Adicionar arquivos para versionamento
 
 ```sh
-git add
+git add <nome_do_arquivo>
 ```
 
-Este comando você já viu. Permite ao desenvolvedor, escolher quais arquivos serão versionados.
+Normalmente adicionamos todos os arquivos; o git é inteligente e consegue saber quais arquivos mudaram e quais permanecem os mesmos.
+## Uso Comum do git add
+```sh
+git add --all ou git add .
+````
 
 ## Trocar de branch para desenvolvimento
 
@@ -124,7 +150,13 @@ Para sair do log, você deve pressionar _q_ no teclado. O log demonstra muitos a
 git reset
 ```
 
-Use apenas se você cometeu algum erro antes de dar commit.
+Use apenas se você cometeu algum erro muito grotesco. Você também usar o git revert para reverter um commit já feito. 
+
+## Reverter um commit problemático
+```sh
+git revert
+```
+
 
 ## Enviar alterações ao repositório remoto
 
@@ -145,10 +177,6 @@ Busca os problemas de sincronia, aplicando diretamente no seu repositório. Caso
 git merge
 ```
 
-## Reverter um commit problemático
-```sh
-git revert
-```
 
 ## Sincronizar repositório local pelo remoto
 ```sh
