@@ -14,7 +14,7 @@ git config --global user.name "Seu Nome de Usuário"
 git config --global user.email "seu-email@example.com"
 ```
 
-Nota: Utilize --global para aplicar essas configurações a todos os repositórios no seu computador. Se não utilizar --global, a configuração será específica para o repositório atual.
+Nota: Utilize --global para aplicar essas configurações a todos os repositórios no seu computador. Se não utilizar --global, a configuração será específica para o repositório atual. Isso só vai funcionar se você já tiver clonado o repositório.
 
 
 # Segurança do git
