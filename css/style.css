@@ -13,9 +13,9 @@
 
 
 .photo-square-small{
-    width: 0.8em;
+    width: 20px;
     align-self: center;
-    height: auto;
+    height: 20px;
     max-width: fit-content;
     max-height: fit-content;
     object-fit: cover;
