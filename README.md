@@ -24,7 +24,6 @@ Funções do GitHub:
 - O GitHub não se restringe apenas a comunidade relacionada à programação.
 - Podemos dizer que o GitHub é um grande forum que usa a tecnologia Git para versionar código, sendo integrado a sua plataforma.
 
-
 # Linus Torwalds e Git Imagem.
 
 <div class = "container-img">
@@ -248,8 +247,17 @@ Caso você utilize alguma IDE para programar, como VSCode, Visual Studio Communn
 
 _Dica de segurança digital:_ Sincronize contas apenas em computadores pessoais, os quais, só você utiliza.
 
-## Documentação original do Git
+# Documentação original do Git
 
 https://git-scm.com/doc
 
 Na _documentação_, existem todos os detalhes sobre o uso, porém, a quem inicia, pode causar um efeito de excesso de informação.
+
+# Questões autorais
+
+Este repositório aceita contribuições, desde que sejam válidas e verificadas. Em caso de contribuição, é necessário se autoreferenciar e expor o nome do autor principal.
+A licensa de uso MIT, se refere ao uso livre à atividades educacionais, porém, caso você queira usar para outros propósitos, use e referencie o dono do repositório.
+
+**Este repositório está em constante construção, podendo haver acréscimo ou decremento de informações.**
+
+## Enjoy, by NEWCORP.team
