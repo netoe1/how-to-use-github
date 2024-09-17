@@ -1,4 +1,48 @@
-<link rel = "stylesheet" type = "text/css" href = "./css/style.css"/>
+<style>
+*{
+box-sizing: border-box;
+}
+
+.photo-square{
+width: 50%;
+height: auto;
+max-width: fit-content;
+max-height: fit-content;
+object-fit: cover;
+aspect-ratio:1/1;
+}
+
+.photo-square-small{
+width: 0.8em;
+align-self: center;
+height: auto;
+max-width: fit-content;
+max-height: fit-content;
+object-fit: cover;
+aspect-ratio:1/1;
+}
+
+.container-img{
+ width: 100%;
+    flex-direction:row;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    gap:5em;
+    padding: 2em;
+
+}
+
+.h-with-logo{
+display: flex;
+align-items:center;
+gap: 0.5em;
+}
+.rounded{
+border-radius: 50%;
+}
+
+</style>
 
 # Guia Rápido de Uso do Git e GitHub
 
