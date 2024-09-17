@@ -9,13 +9,16 @@ Este guia fornece uma visão geral das etapas essenciais para configurar e utili
 A intenção deste curso é desenvolver a aptidão do aluno a utilizar o terminal; quando desenvolvida essa aptidão, o estudante pode ter a liberdade de escolher entre uso via CLI ou UI.
 
 **CLI:** Programa de linha de comando, uso em terminal.
-
 **UI:** Programa que utiliza interface gráfica para interagir com o usuário.
 
+<br>
 
 # Informações sobre este repositório:
 
-Este repositório tem o propósito de auxiliar e ajudar os iniciantes a entenderem como a ferramenta Git funciona. O presente README, bem como todo o repositório, está protegido pela licensa MIT.
+Este repositório tem o propósito de auxiliar e ajudar os iniciantes a entenderem como a ferramenta Git funciona. O presente README, bem como todo o repositório, está protegido pela licença MIT e está sujeito a constante evolução, no qual, você leitor, pode retratara defeitos, na aba Issues. 
+
+Este "artigo" foi escrito por Ely Torres Neto e está aberto para fins educacionais, desde de que seja referenciado corretamente.
+
 
 # Lista de conhecimentos necessários:
 - Comandos Linux
