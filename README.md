@@ -1,5 +1,8 @@
 <link rel = "stylesheet" type = "text/css" href = "./css/style.css"/>
 
+
+
+
 # Guia sobre Git e GitHub
 
 Este guia fornece uma visão geral das etapas essenciais para configurar e utilizar o Git e o GitHub. Siga estas instruções para clonar repositórios, fazer alterações e sincronizar suas mudanças. Normalmente, para facilitar o uso, o GitHub possui uma versão com interface gráfica, o que auxilia iniciantes a utilizarem da ferramenta.
@@ -8,6 +11,11 @@ A intenção deste curso é desenvolver a aptidão do aluno a utilizar o termina
 **CLI:** Programa de linha de comando, uso em terminal.
 
 **UI:** Programa que utiliza interface gráfica para interagir com o usuário.
+
+
+# Informações sobre este repositório:
+
+Este repositório tem o propósito de auxiliar e ajudar os iniciantes a entenderem como a ferramenta Git funciona. O presente README, bem como todo o repositório, está protegido pela licensa MIT.
 
 # Lista de conhecimentos necessários:
 - Comandos Linux
@@ -117,12 +125,12 @@ Para ordenar em ordem alfabética e em lista :
 ls -al
 ```
 
-# Conhecimentos necessários: Conceitos de Git
+# Conhecimentos necessários: Conceitos de Git (para fazer)
 
 
-# Git Flow: Funcionamento do Git por diagramas
+# Git Flow: Funcionamento do Git por diagramas (para fazer)
 
-## Configuração da Conta
+## Configuração da Conta ( para fazer)
 
 Antes de começar, é necessário configurar o Git com seu nome de usuário e e-mail. Estes serão utilizados em seus commits.
 
