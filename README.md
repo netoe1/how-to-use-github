@@ -5,30 +5,40 @@
 Este guia fornece uma visão geral das etapas essenciais para configurar e utilizar o Git e o GitHub. Siga estas instruções para clonar repositórios, fazer alterações e sincronizar suas mudanças. Normalmente, para facilitar o uso, o GitHub possui uma versão com interface gráfica, o que auxilia iniciantes a utilizarem da ferramenta.
 A intenção deste curso é desenvolver a aptidão do aluno a utilizar o terminal; quando desenvolvida essa aptidão, o estudante pode ter a liberdade de escolher entre uso via CLI ou UI.
 
-<p> <strong>CLI:</strong> Programa de linha de comando, uso em terminal.</p>
+**CLI:** Programa de linha de comando, uso em terminal.
 
-<p> <strong>UI:</strong> Programa que utiliza interface gráfica para interagir com o usuário.</p>
+**UI:** Programa que utiliza interface gráfica para interagir com o usuário.
 
 # Git x GitHub
 
 Ao primeiro momento, você precisa entender qual é a diferença entre Git e Github.
-Primeiramente, **Git** foi uma ferramenta criada pelo criador do Linux, **Linus Torvalds**; é **open source**, e é uma ferramenta de versionamento de software, permitindo ao desenvolvedor, gestoriar, de forma mais efetiva seus projetos. O Git é uma ferramenta que funciona localmente em sua máquina.
+Primeiramente, **Git** foi uma ferramenta criada pelo criador do Linux, **Linus Torvalds**; é **open source**, e é uma ferramenta de versionamento de software, permitindo ao desenvolvedor, gestoriar, de forma mais efetiva seus projetos.
+O Git foi uma ferramenta 100% desenvolvida por Linus, devido aos problemas em gestoriar uma aplicação como o Projeto Linux, possuindo muitos contribuidores.
 
-Porém, já o GitHub, é tipo uma "rede social" onde você armazena esse código remotamente, consegue baixar e modificar o código remoto, utilizando a ferramenta Git. Podemos afirmar então, que o GitHub é um complemento a tecnologia de versionamento Git, possuindo algumas outras funções.
+Porém, já o GitHub, é tipo uma "rede social" onde você armazena esse código remotamente, consegue baixar e modificar o código remoto, utilizando a ferramenta Git. O GitHub é um complemento a tecnologia de versionamento Git, possuindo algumas outras funções.
 
-Funções do GitHub:
+<h1 class = "h-with-logo">Características do Git <img src = "./img/git.png" class = "photo-square-small"></h1>
 
-- Permite ao usuário navegar pelo seus repositórios remotos, conhecer outros desenvolvedores e empresas.
-- Permite uma gestão mais amigável das versões, podendo criar pacotes para download, tags.
-- Garante aos desevolvedores reportar as falhas e discussões através da aba Issues.
-- O GitHub não se restringe apenas a comunidade relacionada à programação.
-- Podemos dizer que o GitHub é um grande forum que usa a tecnologia Git para versionar código, sendo integrado a sua plataforma.
+- Ferramenta que possibilita versionamento de acesso local;
+- É open-source, código livre e considerada uma ferramenta madura no mercado de Tecnologias de Versionamento;
+- Permite o gerenciamento das versões, reversão e toda a manipulação necessária para o desenvolvedor.
+- É um app seguro, utiliza o protocolo de criptografia SHA-1.
+- Tem seu uso variado, dependo do fluxo de trabalho do utilizador.
+- Permite que várias pessoas versionem o mesmo software, trabalhando ao mesmo tempo.
+
+# Características do GitHub
+
+- Hospeda os códigos fontes das aplicações versionadas com o Git.
+- Parece com uma rede social, possuindo varios modos de integração e compartilhamento de ideias e projetos, entre desenvolvedores.
+- Os projetos possuem uma área de discussão, capaz de reportar problemas, pull requests e outras funções.
+
+Com isso dito, podemos afirmar que o Git é uma tecnologia acoplada a plataforma GitHub.
 
 # Linus Torwalds e Git Imagem.
 
 <div class = "container-img">
 <img src  = "./img/git.png" class = "photo-square"/> 
-<img src  = "./img/linus.webp" class = "photo-square"/> 
+<img src  = "./img/linus.webp" class = "photo-square rounded"/> 
 </div>
 
 # Conhecimentos Necessários
