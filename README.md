@@ -1,3 +1,5 @@
+<link rel = "stylesheet" type = "text/css" href = "./css/style.css"/>
+
 # Guia Rápido de Uso do Git e GitHub
 
 Este guia fornece uma visão geral das etapas essenciais para configurar e utilizar o Git e o GitHub. Siga estas instruções para clonar repositórios, fazer alterações e sincronizar suas mudanças. Normalmente, para facilitar o uso, o GitHub possui uma versão com interface gráfica, o que auxilia iniciantes a utilizarem da ferramenta.
@@ -7,9 +9,34 @@ A intenção deste curso é desenvolver a aptidão do aluno a utilizar o termina
 
 <p> <strong>UI:</strong> Programa que utiliza interface gráfica para interagir com o usuário.</p>
 
+# Git x GitHub
+
+Ao primeiro momento, você precisa entender qual é a diferença entre Git e Github.
+Primeiramente, **Git** foi uma ferramenta criada pelo criador do Linux, **Linus Torvalds**; é **open source**, e é uma ferramenta de versionamento de software, permitindo ao desenvolvedor, gestoriar, de forma mais efetiva seus projetos. O Git é uma ferramenta que funciona localmente em sua máquina.
+
+Porém, já o GitHub, é tipo uma "rede social" onde você armazena esse código remotamente, consegue baixar e modificar o código remoto, utilizando a ferramenta Git. Podemos afirmar então, que o GitHub é um complemento a tecnologia de versionamento Git, possuindo algumas outras funções.
+
+Funções do GitHub:
+
+- Permite ao usuário navegar pelo seus repositórios remotos, conhecer outros desenvolvedores e empresas.
+- Permite uma gestão mais amigável das versões, podendo criar pacotes para download, tags.
+- Garante aos desevolvedores reportar as falhas e discussões através da aba Issues.
+- O GitHub não se restringe apenas a comunidade relacionada à programação.
+- Podemos dizer que o GitHub é um grande forum que usa a tecnologia Git para versionar código, sendo integrado a sua plataforma.
+
+
+# Linus Torwalds e Git Imagem.
+
+<div class = "container-img">
+<img src  = "./img/git.png" class = "photo-square"/> 
+<img src  = "./img/linus.webp" class = "photo-square"/> 
+</div>
+
 # Conhecimentos Necessários
 
-Para compreender o uso do Git no terminal, primeiro você deve conhecer alguns comandos básicos de Terminal; normalmente, utilizamos  
+Para compreender o uso do Git no terminal, primeiro você deve conhecer alguns comandos básicos de Terminal; normalmente, utilizamos Linux como referência; o linguagem Shell padrão para shells no Linux é Bash Script, baseada em linguagem shell, com alguns detalhes. Recomendo fortemente que você tenha a consciência de uso desta ferramenta, pois ela é requisito para entender e executar os passos do git.
+
+# Git Flow
 
 ## Configuração da Conta
 

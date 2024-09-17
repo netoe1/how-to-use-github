@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.photo-square{
+    width: 50%;
+    height: auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    object-fit: cover;
+    
+}
+
+.container-img{
+    width: 100%;
+    flex-direction:row;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    gap:5em;
+    padding: 2em;
+}
+
+
