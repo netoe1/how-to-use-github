@@ -1,9 +1,34 @@
 <link rel = "stylesheet" type = "text/css" href = "./css/style.css"/>
 
+# Bem vindo ao repositório!
+
+## 🚀 Começando
+* [Menu Principal](README.md)
+* [Git/GitHub](README.md) 
+* [Seção sobre Bash Script](docs/bash-script.md)
+* [Git-Flow](git-flow.md)
+* [Linux](linux.md)
+* [Uso básico](uso-basico.md)
+
+## 📖 Guia de uso
+* [User Manual](docs/USER_GUIDE.md)
+* [Practical Examples](examples/README.md)
+* [Frequently Asked Questions (FAQ)](docs/FAQ.md)
+
+## ⚖️ Licenças e uso legal
+* [Licença de uso MIT custom](LICENSE.md)
+
+---
 
 
+# Informações sobre este repositório:
 
-# Guia sobre Git e GitHub
+Este repositório tem o propósito de auxiliar e ajudar os iniciantes a entenderem como a ferramenta Git funciona. O presente README, bem como todo o repositório, está protegido pela licença MIT e está sujeito a constante evolução, no qual, você leitor, pode retratara defeitos, na aba Issues. 
+
+Este "artigo" foi escrito por Ely Torres Neto e está aberto para fins educacionais, desde de que seja referenciado corretamente.
+
+
+# Guia sobre Git e GitHub: Introdução
 
 Este guia fornece uma visão geral das etapas essenciais para configurar e utilizar o Git e o GitHub. Siga estas instruções para clonar repositórios, fazer alterações e sincronizar suas mudanças. Normalmente, para facilitar o uso, o GitHub possui uma versão com interface gráfica, o que auxilia iniciantes a utilizarem da ferramenta.
 A intenção deste curso é desenvolver a aptidão do aluno a utilizar o terminal; quando desenvolvida essa aptidão, o estudante pode ter a liberdade de escolher entre uso via CLI ou UI.
@@ -13,12 +38,11 @@ A intenção deste curso é desenvolver a aptidão do aluno a utilizar o termina
 
 <br>
 
-# Informações sobre este repositório:
 
-Este repositório tem o propósito de auxiliar e ajudar os iniciantes a entenderem como a ferramenta Git funciona. O presente README, bem como todo o repositório, está protegido pela licença MIT e está sujeito a constante evolução, no qual, você leitor, pode retratara defeitos, na aba Issues. 
-
-Este "artigo" foi escrito por Ely Torres Neto e está aberto para fins educacionais, desde de que seja referenciado corretamente.
-
+Comandos Linux
+Leitura de Diagramas
+Programação em Shell
+Computação no geral
 
 # Lista de conhecimentos necessários:
 - Comandos Linux
@@ -26,13 +50,13 @@ Este "artigo" foi escrito por Ely Torres Neto e está aberto para fins educacion
 - Programação em Shell
 - Computação no geral
 
-# Git x GitHub
+# Git x GitHub, entenda a diferença
 
 Ao primeiro momento, você precisa entender qual é a diferença entre Git e Github.
 Primeiramente, **Git** foi uma ferramenta criada pelo criador do Linux, **Linus Torvalds**; é **open source**, e é uma ferramenta de versionamento de software, permitindo ao desenvolvedor, gestoriar, de forma mais efetiva seus projetos.
 O Git foi uma ferramenta 100% desenvolvida por Linus, devido aos problemas em gestoriar uma aplicação como o Projeto Linux, possuindo muitos contribuidores.
 
-Porém,GitHub, é tipo uma "rede social" onde você armazena esse código remotamente, consegue baixar e modificar o código remoto, utilizando a ferramenta Git. O GitHub é um complemento a tecnologia de versionamento Git, possuindo algumas outras funções.
+Porém, GitHub, é tipo uma "rede social" onde você armazena esse código remotamente, consegue baixar e modificar o código remoto, utilizando a ferramenta Git. O GitHub é um complemento a tecnologia de versionamento Git, possuindo algumas outras funções.
 
 <h1 class = "h-with-logo">Git x GitHub: Características do Git <img src = "./img/git.png" class = "photo-square-small"></h1>
 
@@ -43,7 +67,7 @@ Porém,GitHub, é tipo uma "rede social" onde você armazena esse código remota
 - Tem seu uso variado, dependo do fluxo de trabalho do utilizador.
 - Permite que várias pessoas versionem o mesmo software, trabalhando ao mesmo tempo.
 
-# Git x GitHub: Características do GitHub
+## Características do GitHub
 
 - Hospeda os códigos fontes das aplicações versionadas com o Git.
 - Parece com uma rede social, possuindo varios modos de integração e compartilhamento de ideias e projetos, entre desenvolvedores.
@@ -61,77 +85,56 @@ Com isso dito, podemos afirmar que o Git é uma tecnologia acoplada a plataforma
 
 Para compreender o uso do Git no terminal, primeiro você deve conhecer alguns comandos básicos de Terminal; normalmente, utilizamos Linux como referência; o linguagem Shell padrão para shells no Linux é Bash Script, baseada em linguagem shell, com alguns detalhes. Recomendo fortemente que você tenha a consciência de uso desta ferramenta, pois ela é requisito para entender e executar os passos do git.
 
-# Bash Script ou Shell Script
-
-Caso você seja novato em computação ou ainda não está familirizado, irei introduzir o que é um Shell para você; o Shell é um programa e está relacionado diretamente a arquitetura de computadores. O shell comunica, o kernel de um computador (núcleo), responsável por todo o cuidado do hardware, com o software, que se comunica com o ser humano.
-
-# O que podemos retirar de conclusão disso?
-
-> **O Shell é uma ponte entre, o que você instruir o computador, com o que a máquina deve fazer para chegar no que você quer.**
-
-Para isso, as linguagens de Shell Script são geralmente mais abstratas, ou seja, mais parecidas com a linguagem humana, pulando algumas etapas importantes que o programador, se quisesse acesso direto ao Kernel, deveria executar. O Shell permite navegar entre o sistema de arquivos da máquina, podendo realizar configurações do Sistema Operacional e executando funções previamente criadas pelos seus desenvolvedores, onde até, os programas criados possam utilizar (caso queiram).
+## Sistema de árvore no GitHub
 
 
 
+# Git Flow: Workflow Eficiente (para fazer)
+Ok. Você já entendeu sobre git e entendo que você já quase sabe tudo. Agora vamos falar sobre uma maneira de gestoriar / utilizar o git em seus projetos.
 
-# Bash Script: Como criar uma pasta
+Primeiramente, é importante dizer que não há uma fórmula mágica ou a melhor forma do mundo, pois, na realidade, a melhor forma vai ser a que resolve o seu problema de maneira eficiente; porém, nesse meio, há algumas convenções e passos que os próprios desenvolvedores / usuários utilizam, de modo que todos entendam.
 
-Para criar uma pasta, utilizamos o comando mkdir acrescido do nome que você quer utilizar.
-```sh
-mkdir minhaPasta
-```
-
-# Bash Script: Remover Pasta
-
-Para remover, você deve utilizar o comando **rm**.
-Cuidado, que o comando rm é **perigoso**, pois, se utilizado de forma errada, pode apagar arquivos que você não deseja.
-
-```sh
-rm -rf minhaPasta
-```
-# Bash Script: Navegar entre pastas
-Você pode entrar e sair de pastas. Para isso, existe o comando *cd*.
-Quando quiser entrar em uma pasta, digite:
-
-```sh
-cd nome_da_pasta
-```
-
--/-/-
-
-Para sair da pasta que você entrou, digite:
-
-```sh
-cd ..
-```
-
--/-/-
-
-# Bash Script: Mostrar se o que tem no diretório atual
-Você pode digitar **ls**, para mostrar o diretório
+Ao longo do tempo do uso da ferramenta, a comunidade open-source padronizou um tipo de uso específico da ferramenta, seguindo algumas regras. Foi assim que se iniciou o famoso: Git Flow.
 
 
-```sh
-ls
-```
+## Git Flow a fundo:
+
+### Introdução
+O Git Flow é um modelo de fluxo de trabalho (workflow) de design de ramificação (branching) para o Git, criado por Vincent Driessen em 2010, definindo uma estrutura rigorosa de ramificações projetada em torno do lançamento de projetos.
+
+Diferente de fluxos mais simples, o Git Flow é ideal para projetos que têm ciclos de lançamento programados e precisam de um controle rígido sobre o que entra em produção.
+
+### Tipos de ramificação
+
+O Git Flow utiliza diferentes ramos para propósitos específicos:
+
+#### 1. main (ou master)
+Este é o código que está em produção. Todo código neste ramo deve estar testado, estável e pronto para o usuário final. Cada novo commit aqui costuma receber uma tag de versão (ex: v1.0.1).
+
+#### 2. develop
+É o ramo de integração para recursos. É aqui que o código "do dia a dia" vive. Ele contém as últimas alterações entregues para a próxima versão. Quando o código em develop atinge um ponto estável, ele é fundido (merged) na main.
+
+#### 3. feature/*
+Ramos usados para desenvolver novas funcionalidades.
+- **Origem:** develop.
+- **Destino:** develop.
+- **Regra:** Nunca interagem diretamente com a main.
+
+#### 4. release/*
+Quando o ramo develop tem funcionalidades suficientes para uma nova versão, cria-se um ramo de release.
+- **Objetivo:** Apenas correção de bugs e polimentos finais antes do lançamento.
+- **Destino:** Ao finalizar, é fundido na main (para virar a nova versão) e na develop (para garantir que as correções voltem para o fluxo de trabalho).
+
+#### 5. hotfix/*
+Ramos de emergência para corrigir bugs críticos encontrados diretamente em produção.
+
+- **Origem:** main.
+- **Destino:** main (correção imediata) e develop (para que a correção não se perca no futuro).
 
 
+### Fluxo de trabalho
+---
 
-Para ordenar o que foi mostrado em uma lista:
-
-```sh
-ls -l
-```
-
-Para ordenar em ordem alfabética e em lista :
-```sh
-ls -al
-```
-
-# Conhecimentos necessários: Conceitos de Git (para fazer)
-
-
-# Git Flow: Funcionamento do Git por diagramas (para fazer)
 
 ## Configuração da Conta ( para fazer)
 
@@ -179,151 +182,6 @@ O **.gitignore** é um arquivo que permite ao programador, informar ao git arqui
 
 > O exemplo mais clássico que utilizamos, é a pasta **node_modules** que contém os arquivos de módulos do nodejs, que podem ser instalados a qualquer momento.
 
-# Comandos Git: Clonando um Repositório
-
-Para clonar um repositório do GitHub para sua máquina local, use o comando git clone:
-
-```sh
-git clone https://github.com/usuario/repositorio.git
-```
-
-Substitua https://github.com/usuario/repositorio.git pelo URL do repositório que deseja clonar.
-Quando se clona um repositório e ele seja de sua própria autoria, você consegue modificar seu conteúdo e atualizá-lo ao repositório remoto. Se é de outra pessoa, você pode ter uma cópia para você, através do Fork.
-
-
-
-
-# Comandos Git: Sincronizando com o Repositório Remoto
-
-Para garantir que seu repositório local esteja atualizado com as mudanças do repositório remoto, execute:
-
-```sh
-git pull
-```
-
-_Este comando irá buscar e integrar as mudanças do repositório remoto no seu repositório local._
-
-# Comandos Git: Adicionando e Confirmando Arquivos
-
-Após fazer alterações nos arquivos, você precisa adicioná-los à área de preparação e confirmar essas alterações.
-
-## Comandos Git: Adicionando Arquivos
-
-Para adicionar todos os arquivos modificados, use:
-
-```sh
-git add --all
-```
-
-Ou, se quiser adicionar arquivos específicos, substitua nome_do_arquivo pelo caminho do arquivo:
-Quando você usar --all, o Git é inteligente e consegue saber quais arquivos foram modificados...
-
-```sh
-git add nome_do_arquivo
-Confirmando as Alterações
-
-```
-
-Para confirmar as mudanças adicionadas, use o comando git commit com uma mensagem descritiva:
-
-```sh
-
-git commit -m "Descrição clara do que foi alterado"
-```
-
-# Comandos Git: Enviando Mudanças para o Repositório Remoto
-
-Depois de confirmar suas alterações, envie-as para o repositório remoto com o comando git push:
-
-```sh
-git push origin main
-```
-
-Substitua main pelo nome da branch que você está atualizando, se for diferente.
-
-## Comandos Git: Resolução de Problemas
-
-Se você encontrar erros durante git pull ou git push, as mensagens de erro geralmente fornecem informações úteis. Verifique o log de erros e consulte a documentação oficial do Git ou busque ajuda online se necessário.
-
-# Comandos principais para git
-
-# Comandos Git:  Adicionar arquivos para versionamento
-
-```sh
-git add <nome_do_arquivo>
-```
-
-Normalmente adicionamos todos os arquivos; o git é inteligente e consegue saber quais arquivos mudaram e quais permanecem os mesmos.
-
-## Uso Comum do git add
-
-```sh
-git add --all ou git add .
-```
-
-# Comandos Git: Trocar de branch para desenvolvimento
-
-```sh
-git checkout <nome_da_branch>
-```
-
-Este comando permite que você troque entre branch's.
-
-## Comandos Git:  Limpar arquivos do repositório que não estão sendo versionados
-
-```sh
-git clean
-```
-
-## Comandos Git:  Verificar versões anteriores do projeto
-
-```sh
-git log
-```
-
-Para sair do log, você deve pressionar _q_ no teclado. O log demonstra muitos aspectos avançados sobre o repositório.
-
-## Comandos Git:  Resetar todas as alterações que não foram "commitadas"
-
-```sh
-git reset
-```
-
-Use apenas se você cometeu algum erro muito grotesco. Você também usar o git revert para reverter um commit já feito.
-
-## Comandos Git:  Reverter um commit problemático
-
-```sh
-git revert
-```
-
-## Comandos Git:  Enviar alterações ao repositório remoto
-
-```sh
-git push
-```
-
-## Comandos Git:  Sincroniza repositório local baixando os dados do remoto.
-
-```sh
-git pull
-```
-
-Busca os problemas de sincronia, aplicando diretamente no seu repositório. Caso haja algum erro, o git tentará utilizar o processo de Rebase.
-
-## Comandos Git:  Misturar duas branchs diferentes em um só
-
-```sh
-git merge
-```
-
-## Comandos Git:  Sincronizar repositório local pelo remoto
-
-```sh
-git fetch
-```
-
-A diferença entre o git fetch e pull, é que o fetch permite ver o histórico do repositório local, enquanto o git pull já altera diretamente.
 
 # Possíveis Problemas com versionamento: Repo local e remoto
 

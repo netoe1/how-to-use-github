@@ -1,23 +1,43 @@
-MIT License
+MIT LICENSE (MODIFIED / DUAL-LICENSE TERMS)
 
-Copyright (c) 2024 Ely Torres Neto
+Copyright (c) 2024-present Ely TOrres Neto
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy 
+of this software and associated documentation files (the "Software"), to deal 
+in the Software subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. COPYRIGHT PROTECTION AND ATTRIBUTION
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software. Original authorship 
+metadata and copyright headers must remain intact and unaltered.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. FREE USE FOR EDUCATION, STUDY, AND NON-COMMERCIAL PURPOSES
+The use of this Software is strictly free of charge for students, educators, 
+researchers, and individuals using the Software solely for personal study, 
+knowledge acquisition, or non-commercial open-source projects.
 
+3. CORPORATE AND COMMERCIAL USE RESTRICTIONS
+Any entity intended to use this Software for corporate, commercial, or 
+for-profit purposes must contact the maintainer at [Your Email/Contact Info] 
+to obtain a specific commercial license or written authorization prior to use. 
+Unauthorized commercial use is strictly prohibited.
 
+4. COMPLIANCE AND PENALTIES
+Any use of the Software that does not comply with the terms of this license 
+(including unauthorized corporate use) shall be considered an infringement 
+of copyright. Inappropriate or unauthorized use may be subject to legal 
+action and the imposition of fines and liquidated damages as permitted by law.
+
+5. INTELLECTUAL PROPERTY
+This license does not transfer any ownership or intellectual property rights 
+to the User. The Licensor retains all rights, titles, and interests in and 
+to the Software.
+
+6. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN 
+THE SOFTWARE.
