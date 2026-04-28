@@ -5,15 +5,10 @@
 ## 🚀 Começando
 * [Menu Principal](README.md)
 * [Git/GitHub](README.md) 
-* [Seção sobre Bash Script](docs/bash-script.md)
+* [Apêncice: Bash Script](docs/bash-script.md)
 * [Git-Flow](git-flow.md)
-* [Linux](linux.md)
-* [Uso básico](uso-basico.md)
-
-## 📖 Guia de uso
-* [User Manual](docs/USER_GUIDE.md)
-* [Practical Examples](examples/README.md)
-* [Frequently Asked Questions (FAQ)](docs/FAQ.md)
+* [Apêndice: Linux](linux.md)
+* [Apêndice: Uso básico](uso-basico.md)
 
 ## ⚖️ Licenças e uso legal
 * [Licença de uso MIT custom](LICENSE.md)
@@ -217,4 +212,3 @@ A licensa de uso MIT, se refere ao uso livre à atividades educacionais, porém,
 
 **Este repositório está em constante construção, podendo haver acréscimo ou decremento de informações.**
 
-## Enjoy, by NEWCORP.team

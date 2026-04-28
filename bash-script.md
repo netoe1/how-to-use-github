@@ -1,27 +1,4 @@
 
-# Você está em bash-script.sh
-
-Neste arquivo.md, você vai ter acesso ao conteúdos sobre bash script.
-
-## 🚀 Começando
-* [Menu Principal](README.md)
-* [Git/GitHub](README.md) 
-* [Seção sobre Bash Script](docs/bash-script.md)
-* [Installation Guide](docs/INSTALLATION.md)
-* [Environment Setup](docs/SETUP.md)
-
-## 📖 Guia de uso
-* [User Manual](docs/USER_GUIDE.md)
-* [Practical Examples](examples/README.md)
-* [Frequently Asked Questions (FAQ)](docs/FAQ.md)
-
-## ⚖️ Licenças e uso legal
-* [Licença de uso MIT custom](LICENSE.md)
-
----
-
-
-
 # Bash Script / Shell Script
 
 Caso você seja novato em computação ou ainda não está familirizado, irei introduzir o que é um Shell para você; o Shell é um programa e está relacionado diretamente a arquitetura de computadores. O shell comunica, o kernel de um computador (núcleo), responsável por todo o cuidado do hardware, com o software, que se comunica com o ser humano.
