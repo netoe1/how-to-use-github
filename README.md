@@ -8,7 +8,7 @@
 * [Apêncice: Bash Script](docs/bash-script.md)
 * [Git-Flow](git-flow.md)
 * [Apêndice: Linux](linux.md)
-* [Apêndice: Uso básico](uso-basico.md)
+* [Apêndice: Uso/ Comandos básicos](uso-basico.md)
 
 ## ⚖️ Licenças e uso legal
 * [Licença de uso MIT custom](LICENSE.md)
