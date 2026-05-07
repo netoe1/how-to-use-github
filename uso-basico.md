@@ -39,6 +39,7 @@ git commit -m "Explicacao curta da alteracao feita"
 
 ## 4. TRABALHANDO COM BRANCHES (RAMOS)
 - **git checkout -b nome-da-branch:** Cria uma nova branch e entra nela.
+- **git switch <branch>:** Troca para a branch digitada, se ela existe.
 - **git branch:** Lista todas as branches e mostra em qual voce esta.
 - **git checkout main:** Volta para a branch principal.
 - **git merge nome-da-branch:** Une as alteracoes de uma branch a branch atual.
