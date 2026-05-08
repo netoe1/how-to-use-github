@@ -2,6 +2,7 @@
 
 # Bem vindo ao repositório!
 
+* [Slide SACI 2026/SAADS](https://canva.link/twncq7yid3gqaty)
 ## 🚀 Começando
 * [Menu Principal](README.md)
 * [Git/GitHub](README.md) 
